@@ -1,0 +1,14 @@
+build/
+cmake-build-*/
+*.o
+*.obj
+*.exe
+*.out
+*.app
+.vscode/
+.idea/
+*.user
+*.pro.user
+moc_*.cpp
+ui_*.h
+qrc_*.cpp

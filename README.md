@@ -20,6 +20,12 @@ ShopFilter 是一个智能化的电商商品聚合与筛选桌面应用，模拟
 
 基于 **Qt6 + C++17** 构建，你只需告诉它要什么，剩下的搜索、比对、排序、筛选全自动完成。
 
+## 界面预览
+
+<p align="center">
+  <img src="assets/screenshot.png" alt="ShopFilter 界面截图" width="800" />
+</p>
+
 ---
 
 ## 功能

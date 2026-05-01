@@ -50,13 +50,7 @@ ShopFilter 是一个智能化的电商商品聚合与筛选桌面应用，模拟
 | CMake | >= 3.16 |
 | 编译器 | 支持 C++17 (MSVC / GCC / Clang) |
 
-**编译运行**
 
-```bash
-cmake -B build -DCMAKE_BUILD_TYPE=Release
-cmake --build build --config Release
-./build/ShopFilter
-```
 
 ---
 

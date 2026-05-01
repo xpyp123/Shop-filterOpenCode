@@ -36,16 +36,34 @@ ShopFilter 是一个智能化的电商商品聚合与筛选桌面应用，模拟
 
 ## 构建
 
-```bash
-# 依赖: Qt6 (Widgets), CMake >= 3.16, C++17
-cmake -B build && cmake --build build
+**前置依赖**
+
+| 依赖 | 版本要求 |
+|------|----------|
+| Qt | >= 6.0 (Widgets 模块) |
+| CMake | >= 3.16 |
+| 编译器 | 支持 C++17 (MSVC / GCC / Clang) |
+
+
+
+---
+
 ## 技术栈
 
-- **语言**: C++17
-- **框架**: Qt6 (Widgets + 自定义 QSS 主题)
-- **架构**: 插件式多平台抓取 (IScraper 接口) + 多线程并发
-- **数据**: nlohmann/json 解析
-- **开发方式**: AI 智能体辅助 (OpenCode)
+| 类别 | 技术 |
+|------|------|
+| 语言 | C++17 |
+| 框架 | Qt6 (Widgets + 自定义 QSS 主题) |
+| 构建 | CMake |
+| 架构 | 插件式多平台抓取 (IScraper 接口) + 多线程并发 |
+| 数据 | nlohmann/json 解析 |
+| 开发 | OpenCode AI 智能体辅助 |
+
+---
+
+<p align="center">
+  <sub>Made with OpenCode AI Agent</sub>
+</p>
 
 ## 许可
 
